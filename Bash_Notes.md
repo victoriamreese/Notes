@@ -143,3 +143,8 @@ command to command redirection
 
 ## shortcuts:
 mkdir vue-cdn && vue-cdn -this makes the folder and enters it too. 
+
+##bash profile:
+.bash_profile - stores aliases, 
+
+
