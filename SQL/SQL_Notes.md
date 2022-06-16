@@ -145,3 +145,5 @@ SELECT * FROM table_1 UNION SELECT * FROM table_2;
 
 WITH - embedding one query into another to use it as a temporary query e.g.
 WITH previous_query AS (SELECT customer_id, COUNT(subscription_id) AS 'subscriptions' FROM orders GROUP BY customer_id) SELECT customers.customer_name, previous_query.subscriptions FROM previous_query JOIN customers ON customers.customer_id = previous_query.customer_id;
+
+# TEST UPDATES
